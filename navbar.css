@@ -1,0 +1,84 @@
+.navbar{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 1rem;
+    border-bottom: 2px solid #F1F2F6;
+    position: fixed;
+    background-color: white;
+}
+.fakenav{
+    width: 100%;
+    height: 4rem;
+}
+#navlogo{
+    font-size: 20px;
+}
+.navbar *{
+    display: flex;
+}
+.nav1{
+    flex: 1;
+}
+.nav2{
+    flex:1;
+    justify-content: space-around;
+}
+.nav3{
+    flex:1;
+    justify-content: flex-end;
+}
+.nav3 button{
+    margin: 0px 6px;
+    padding: 8px 14px;
+    border: none;
+    border-radius: 10px;
+}
+#signup{
+    color: white;
+    background-color: #0654EC;
+}
+.disappear{
+    background-color: #001A40;
+    height: calc(100% - 4rem);
+    width: fit-content;
+    position: fixed;
+    display: none;
+}
+.nav-disappear-menu{
+    display: none;
+    padding:1rem;
+    cursor: pointer;
+}
+.menu{
+    padding: 10px 10px;
+}
+.menu li{
+    all: unset;
+    display: flex;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding:0.6rem 4rem;
+    color: white;
+}
+.menu li:hover{
+    background-color: #0654EC;
+}
+.disappear.active {
+    display: block;
+}
+
+
+@media (max-width:768px) {
+    .nav2{
+        display: none;
+    }
+    .nav-disappear-menu{
+        display: block;
+    }
+    .nav3 button{
+        padding: 8px;
+    }
+}
