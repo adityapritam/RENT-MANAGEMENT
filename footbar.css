@@ -1,0 +1,31 @@
+.foot-bar{
+    border-top: 2px solid #CED1DC;
+}
+.foot-menu{
+    padding:2rem 3rem;
+}
+.foot-top{
+    display: flex;
+}
+.foot-top *{
+    justify-content: center;
+    align-items: center;
+    flex:1;
+}
+.foot-option{
+    padding: 10px 0px;
+    cursor: pointer;
+}
+.foot-menu span i{
+    font-size: 30px;
+    padding: 10px;
+}
+.foot-menu h3{
+    padding-bottom: 20px;
+}
+.foot-bottom{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 2px solid #CED1DC;
+}

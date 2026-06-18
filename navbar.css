@@ -8,6 +8,7 @@
     border-bottom: 2px solid #F1F2F6;
     position: fixed;
     background-color: white;
+    z-index: 1000;
 }
 .fakenav{
     width: 100%;
@@ -69,7 +70,17 @@
 .disappear.active {
     display: block;
 }
+.nav-menu{
+    font-weight: 450;
+}
+.nav-menu:hover{
+    cursor: pointer;
+    color: #0654EC;
 
+}
+button{
+    cursor: pointer;
+}
 
 @media (max-width:768px) {
     .nav2{

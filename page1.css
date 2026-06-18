@@ -1,0 +1,100 @@
+.page-1{
+    /* background-color: red; */
+    height: calc(100% - 4rem);
+}
+.pg-1-back{
+    display: flex;
+    height: 100%;
+    position: relative;
+}
+.page-1-left{
+    flex:1;
+    height: 100%;
+    padding: 3rem 3rem;
+}
+#pgsection{
+    height: calc(100% - 4rem);
+    width: 100%;
+}
+.page-1-right{
+    flex: 1;
+    z-index: -1;
+    background-image: url("apartment.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.pg1-home{
+    background-color: #E8F2FE;
+    width: max-content;
+    padding: 5px;
+    border-radius: 10px;
+    color:#0654EC;
+}
+#pg1-heading1{
+    padding-top: 1.5rem;
+    font-size: 50px;
+    line-height: 0.8;
+}
+#pg1-heading2{
+    font-size: 50px;
+    color: #0654EC;
+    padding-bottom: 1.5rem;
+}
+.page-1-left p{
+    color: #868891;
+}
+.pg-1-searchbox{
+    left:45px;
+    display: flex;
+    justify-content: space-around;
+    width: 40rem;
+    position: absolute;
+    bottom: 21vh;
+    border: 1px solid #868891;
+    box-shadow: 0 4px 10px #868891;
+    background-color: #FEFEFE;
+    padding: 15px;
+    border-radius: 10px;
+}
+.p1-boxstyle{
+    text-align: center;
+}
+.search-text{
+    display: block;
+    padding-bottom: 10px;
+    text-align: center;
+    margin-right: 10px;
+}
+#property-type{
+    margin: 0px 10px;
+    padding: 5px 30px;
+}
+#location{
+    padding: 5px 10px;
+}
+#rent{
+    padding: 5px 10px;
+}
+#pg1-submit{
+    height: 30px;
+    width: 70px;
+    background-color: #0654EC;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.page-1-bar{
+    position:absolute;
+    height: 4rem;
+    width: 100%;
+    bottom: 1px;
+    z-index: -10;
+    background: linear-gradient(
+        90deg,
+        #f3f4f6 100%,
+        #e5e7eb 70%,
+        rgba(229,231,235,0.4) 30%,
+        transparent 0%
+    );
+}

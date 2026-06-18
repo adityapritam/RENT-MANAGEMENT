@@ -1,0 +1,14 @@
+@media (max-width:768px) {
+    .tiles{
+        flex-direction: column;
+    }
+    .pg2-cards{
+        flex-direction: column;
+    }
+    .page-2{
+        padding-left: 1rem;
+    }
+    .pg2-cards{
+        width: 90%;
+    }
+}

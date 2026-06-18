@@ -10,6 +10,10 @@
     />
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="page1.css">
+    <link rel="stylesheet" href="page2.css">
+    <link rel="stylesheet" href="footbar.css">
+    <link rel="stylesheet" href="responsive.css">
 </head>
 <body>
     <div class="main">
@@ -34,7 +38,6 @@
             </div>
             <div class="fakenav"></div>
         </header>
- 
             <div class="disappear">
             <ul class="menu">
                     <li><i class="ri-home-3-line" style="font-size:20px"></i>&nbsp;&nbsp;Home</li>
@@ -43,6 +46,176 @@
                     <li><i class="ri-contacts-book-line" style="font-size:20px"></i>&nbsp;&nbsp;Contact</li>
                 </ul>
             </div>
+
+        <section id="pgsection">
+            <div class="page-1">
+                <div class="pg-1-back">
+                    <div class="page-1-left">
+                        <div class="pg1-home"><i class="ri-contrast-drop-2-fill"></i> Find Your Perfect Home</div>
+                        <h1 id="pg1-heading1">Discover Amazing</h1>
+                        <h1 id="pg1-heading2">Rental Properties</h1>
+                        <p>Find the perfect rental property that suits your lifestyle.</p>
+                        <p>Verified listings, trusted owners, simple process.</p>
+                    </div>
+                    <div class="page-1-right">
+                    </div>
+                </div>
+                <div class="pg-1-searchbox" >
+                    <div class="p1-location" class="p1-boxstyle"><span class="search-text">Location</span>
+                        <input type="text" placeholder="Enter location" required id="location">
+                    </div>
+                    <div class="p1-property-type" class="p1-boxstyle">
+                        <span class="search-text">Property Type</span>
+                            <select id="property-type">
+                                <option>All Types</option>
+                                <option>Apartment</option>
+                                <option>House</option>
+                                <option>Villa</option>
+                                <option>Shops</option>
+                            </select>
+                    </div>
+                    <div class="p1-max-rent" class="p1-boxstyle"><span class="search-text">Max Rent</span>
+                        <input type="number" placeholder="Amount" min="0" id="rent">
+                    </div>
+                    <button type="submit" id="pg1-submit">Search</button>
+                </div>
+            </div>
+            <div class="page-1-bar"></div>
+        </section>
+
+        <section>
+            <div class="page-2">
+                <div class="pg2-category">
+                    <h2>Browse by Category</h2>
+                    <div class="tiles">
+                        <div class="tile-icon" id="house">
+                            <span><i class="ri-home-smile-fill" style="font-size: 60px; color: #0654EC;"></i></span><span>House</span>
+                        </div>
+                        <div class="tile-icon" id="apartment">
+                            <span><i class="ri-building-line" style="font-size: 60px; color: #6662b7;"></i></span><span>Apartment</span>
+                        </div>
+                        <div class="tile-icon" id="pg">
+                            <span><i class="ri-hotel-bed-line" style="font-size: 60px; color: #264897;"></i></span><span>PG/Hostel</span>
+                        </div>
+                        <div class="tile-icon" id="shop">
+                            <span><i class="ri-store-3-line" style="font-size: 60px; color: #D49457;"></i></span><span>Shop</span>
+                        </div>
+                        <div class="tile-icon" id="office">
+                            <span><i class="ri-government-line" style="font-size: 60px;color: #2148A3;"></i></span><span>Office</span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="pg2-feature">
+                    <h2 style="padding-top: 1rem;">Featured Properties</h2>
+                    <div class="pg2-cards">
+                        <div class="pg2-prop">
+                            <div class="pg2-b1"></div>
+                            <div class="pg2-b2">
+                                <span style="font-weight: 600;">2 BHK Apartment</span>
+                                <span><i class="ri-map-pin-line" style="color: #868891;"></i> Ghaziabad, UP</span>
+                                <span style="color: #0654EC;font-weight: 600;font-size: 20px;">₹15,000/month</span>
+                                <div class="p2-bottom">
+                                    <span><i class="ri-hotel-bed-line"></i>2 Beds</span>
+                                    <span><i class="ri-paint-line"></i>2 Baths</span>
+                                    <span><i class="ri-landscape-line"></i>1200 sq ft</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pg2-prop">
+                            <div class="pg2-b1"></div>
+                            <div class="pg2-b2">
+                                <span style="font-weight: 600;">2 BHK Apartment</span>
+                                <span><i class="ri-map-pin-line" style="color: #868891;"></i> Ghaziabad, UP</span>
+                                <span style="color: #0654EC;font-weight: 600;font-size: 20px;">₹15,000/month</span>
+                                <div class="p2-bottom">
+                                    <span><i class="ri-hotel-bed-line"></i>2 Beds</span>
+                                    <span><i class="ri-paint-line"></i>2 Baths</span>
+                                    <span><i class="ri-landscape-line"></i>1200 sq ft</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pg2-prop">
+                            <div class="pg2-b1"></div>
+                            <div class="pg2-b2">
+                                <span style="font-weight: 600;">2 BHK Apartment</span>
+                                <span><i class="ri-map-pin-line" style="color: #868891;"></i> Ghaziabad, UP</span>
+                                <span style="color: #0654EC;font-weight: 600;font-size: 20px;">₹15,000/month</span>
+                                <div class="p2-bottom">
+                                    <span><i class="ri-hotel-bed-line"></i>2 Beds</span>
+                                    <span><i class="ri-paint-line"></i>2 Baths</span>
+                                    <span><i class="ri-landscape-line"></i>1200 sq ft</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pg2-stats">
+                    <div class="stats">
+                        <div class="stats-logo" style="color: #0654EC;background-color: #E3F0FF;"><i class="ri-file-text-line"></i></div>
+                        <div class="stats-text">
+                            <span style="font-weight: 700;font-size: 20px;">5000+</span>
+                            <span>Properties Listed</span>
+                        </div>
+                    </div>
+                    <div class="stats">
+                        <div class="stats-logo" style="color: #e3a84f; background-color: #F9E9CF;"><i class="ri-upload-cloud-2-line"></i></div>
+                        <div class="stats-text">
+                            <span style="font-weight: 700;font-size: 20px;">2000+</span>
+                            <span>Happy Users</span>
+                        </div>
+                    </div>
+                    <div class="stats">
+                        <div class="stats-logo" style="color: #3AAFB6;background-color: #d7f6f8;"><i class="ri-map-pin-fill"></i></div>
+                        <div class="stats-text">
+                            <span style="font-weight: 700;font-size: 20px;">50+</span>
+                            <span>Cities Covered</span>
+                        </div>
+                    </div>
+                    <div class="stats">
+                        <span class="stats-logo" style="color: purple;background-color: #E4DEFC;"><i class="ri-star-line"></i></span>
+                        <span class="stats-text">
+                            <span style="font-weight: 700;font-size: 20px;">4.8/5</span>
+                            <span>User Rating</span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="foot-bar">
+                <div class="foot-top">
+                    <div class="foot-menu">
+                        <div class="foot-logo">
+                            <i class="ri-home-3-fill" style="color: #0654EC;font-size: 25px;padding-right: 5px;"></i><span style="font-size: 20px; font-weight: 600;">Rentora</span>
+                            <p style="padding-top: 10px;">Rentora is your one-stop solution for finding the best rental properties. Trusted by thousands of users.</p>
+                        </div>
+                    </div>
+                    <div class="foot-menu">
+                        <h3>Company</h3>
+                        <div class="foot-option">About us</div>
+                        <div class="foot-option">Contact us</div>
+                        <div class="foot-option">Careers</div>
+                        <div class="foot-option">Blog</div>
+                    </div>
+                    <div class="foot-menu">
+                        <h3>Support</h3>
+                        <div class="foot-option">Help Center</div>
+                        <div class="foot-option">Terms & Conditions</div>
+                        <div class="foot-option">Privacy Policy</div>
+                        <div class="foot-option">FAQs</div>
+                    </div>
+                    <div class="foot-menu">
+                        <h3>Support</h3>
+                        <span><i class="ri-facebook-circle-fill"></i></span>
+                        <span><i class="ri-twitter-x-line"></i></span>
+                        <span><i class="ri-instagram-line"></i></span>
+                        <span><i class="ri-linkedin-box-fill"></i></span>
+                    </div>
+                </div>
+                <div class="foot-bottom">© 2026 Rentora. All rights reserved.</div>
+            </div>
+        </footer>
     </div>
     <script src="disappear.js"></script>
 </body>
