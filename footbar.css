@@ -1,5 +1,6 @@
 .foot-bar{
     border-top: 2px solid #CED1DC;
+    width: 100%;
 }
 .foot-menu{
     padding:2rem 3rem;
@@ -28,4 +29,14 @@
     padding-top: 20px;
     padding-bottom: 20px;
     border-top: 2px solid #CED1DC;
+}
+
+#facebook{
+    color:#0654EC;
+}
+#instagram{
+    color: magenta;
+}
+#linkedin{
+    color:#0A66C2;
 }

@@ -49,13 +49,12 @@
     display: flex;
     justify-content: space-around;
     width: 40rem;
-    position: absolute;
-    bottom: 21vh;
     border: 1px solid #868891;
     box-shadow: 0 4px 10px #868891;
     background-color: #FEFEFE;
     padding: 15px;
     border-radius: 10px;
+    margin-top: 20px;
 }
 .p1-boxstyle{
     text-align: center;
@@ -67,8 +66,8 @@
     margin-right: 10px;
 }
 #property-type{
-    margin: 0px 10px;
-    padding: 5px 30px;
+    margin: 0px 0px;
+    padding: 5px 7px;
 }
 #location{
     padding: 5px 10px;

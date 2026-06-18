@@ -6,6 +6,13 @@
     .pg2-cards{
         flex-direction: column;
         height: auto;
+        padding-top: 20px;
+        padding-left: 30px;
+    }
+    .pg2-feature{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     .page-2{
         padding-left: 1rem;
@@ -18,6 +25,12 @@
     }
     .page-1-right{
         display: none;
+    }
+    .page-1-left{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     .pg-1-searchbox{
         flex-direction: column;
@@ -75,5 +88,8 @@
     }
     .disappear{
         z-index: 100;
+    }
+    #property-type{
+     width: 97%;
     }
 }
