@@ -37,7 +37,7 @@
 .pg2-cards{
     display: flex;
     height: 27rem;
-    /* width: 100%; */
+    width: max-content;
 }
 .pg2-prop{
     margin: 30px 0px;

@@ -1,14 +1,79 @@
 @media (max-width:768px) {
     .tiles{
         flex-direction: column;
+        margin-left: 30px;
     }
     .pg2-cards{
         flex-direction: column;
+        height: auto;
     }
     .page-2{
         padding-left: 1rem;
     }
-    .pg2-cards{
-        width: 90%;
+    .pg2-prop{
+        margin:0px;
+    }
+    .pg2-b1{
+        width: 20rem;
+    }
+    .page-1-right{
+        display: none;
+    }
+    .pg-1-searchbox{
+        flex-direction: column;
+        width: fit-content;
+        width: 15rem;
+    }
+    .search-text{
+        padding: 0px;
+        margin-bottom: 5px;
+        text-align: left;
+    }   
+    .pg-1-searchbox{
+        padding-right: 0px;
+        padding-left: 20px;
+        bottom:10px;
+        height: 20rem;
+    }
+    #pg1-submit{
+        margin: 10px;
+    }
+    .page-1{
+        height: 100%;
+    }
+    #pgsection{
+        height: 100%;
+    }
+    .page-1-bar{
+        bottom: -30px;
+    }
+    .page-1-left{
+        padding-top: 10px;
+    }
+    .search-text{
+        display: block;
+    }
+    #rent{
+        display: block;
+        margin-top: 15px;
+    }
+    .pg2-stats{
+        flex-direction: column;
+    }
+    .stats{
+        padding: 10px;
+    }
+    .pg2-b1{
+        overflow: hidden;
+        padding: 20px;
+    }
+    .pg2-prop{
+        margin-bottom: 20px;
+    }
+    .foot-top{
+        flex-direction: column;
+    }
+    .disappear{
+        z-index: 100;
     }
 }
