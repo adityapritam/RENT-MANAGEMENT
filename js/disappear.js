@@ -11,3 +11,11 @@ window.addEventListener("resize", () => {
         document.querySelector(".disappear").classList.remove("active");
     }
 });
+
+document.getElementById("login").addEventListener("click", () => {
+    window.location.href = "../html/login.html";
+});
+
+document.getElementById("signup").addEventListener("click", () => {
+    window.location.href = "signup.html";
+});
