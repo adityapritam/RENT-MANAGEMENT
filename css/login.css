@@ -11,3 +11,69 @@ html, body{
     height: 100%;
     width: 100%;
 }
+#login{
+    background-image: url("../img/bgc.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.login-1{
+    margin-bottom: 10px;
+}
+.login-box{
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid grey;
+    padding: 40px;
+    border-radius: 20px;
+    margin-left: 300px;
+}
+#login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100% - 4rem);
+    width: 100%;
+}
+.input-group label{
+    display: block;
+    padding:10px 0px;
+}
+.inp{
+    width: 100%;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+.options{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.login-btn{
+    width: 100%;
+    padding: 7px;
+    background-color: #0654ED;
+    color: white;
+    border-radius: 10px;
+    border:0px;
+}
+.signup-link{
+    padding-top: 10px;
+}
+
+#toggle{
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+}
+@media (max-width:768px) {
+    .login-box{
+        background-color: whitesmoke;
+        padding: 30px 20px;
+        margin-left: 0px;
+        width: 18em;
+    }
+    .options{
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+}

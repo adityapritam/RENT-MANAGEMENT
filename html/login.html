@@ -4,11 +4,90 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+    rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/navbar.css">
     <link rel="stylesheet" href="../css/login.css">
 </head>
 <body>
     <div class="main">
-        
+        <header>
+            <div class="navbar">
+                <div class="nav1">
+                    <div id="navlogo"><i class="ri-home-3-fill" style="color: #0654EC;font-size: 25px;padding-right: 5px;"></i>Rentora</div>
+                </div>
+                <div class="nav2">
+                    <div class="nav-menu">Home</div>
+                    <div class="nav-menu">Browse</div>
+                    <div class="nav-menu">About us</div>
+                    <div class="nav-menu">Contact</div>
+                </div>
+                <div class="nav3">
+                    <button id="login" style="display: none;">Login</button>
+                    <button id="signup">Sign up</button>
+                </div>
+                <div class="nav-disappear-menu">
+                    <div class="hamburger"><i class="ri-menu-unfold-line"></i></div>
+                </div>
+            </div>
+            <div class="fakenav"></div>
+        </header>
+            <div class="disappear">
+            <ul class="menu">
+                    <li><i class="ri-home-3-line" style="font-size:20px"></i>&nbsp;&nbsp;Home</li>
+                    <li><i class="ri-hotel-line" style="font-size:20px"></i>&nbsp;&nbsp;Browse</li>
+                    <li><i class="ri-info-card-line" style="font-size:20px"></i>&nbsp;&nbsp;About us</li>
+                    <li><i class="ri-contacts-book-line" style="font-size:20px"></i>&nbsp;&nbsp;Contact</li>
+                </ul>
+            </div>
+            <section id="login">
+                <div class="login-box">
+                    <div class="login-1">
+                    <h1>Login to Your Account</h1>
+                    <p>Welcome back! Please enter your details.</p>
+                    </div>
+                    <div class="login-credential">
+                        <!-- form -->
+                        <form>
+                        <div class="input-group">
+                            <label>Email</label>
+                            <input class="inp" type="email" placeholder="✉️ Enter your email" required>
+                        </div>
+
+                        <div class="input-group">
+                            <label>Password</label>
+
+                            <div style="position:relative;">
+                                <input class="inp" id="password" type="password" placeholder="Enter Password">
+
+                                <button type="button" id="toggle"
+                                style="position:absolute;right:5px;top:50%;transform:translateY(-50%);">
+                                    <i class="ri-eye-line"></i>
+                                </button>
+                        </div>
+
+                        <div class="options">
+                            <label>
+                                <input type="checkbox"> Remember me
+                            </label>
+                            <a href="#" style="color: #0654EC;">Forgot Password?</a>
+                        </div>
+
+                        <button type="submit" class="login-btn">Login</button>
+
+                        <div class="signup-link">
+                            Don't have an account? <a href="../html/signup.html">Sign Up</a>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+            </section>
     </div>
+    <script src="../js/disappear.js"></script>
+    <script src="../js/login.js"></script>
 </body>
 </html>

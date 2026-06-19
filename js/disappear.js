@@ -17,5 +17,5 @@ document.getElementById("login").addEventListener("click", () => {
 });
 
 document.getElementById("signup").addEventListener("click", () => {
-    window.location.href = "signup.html";
+    window.location.href = "../html/signup.html";
 });
