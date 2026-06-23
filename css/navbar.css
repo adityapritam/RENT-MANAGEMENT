@@ -47,6 +47,7 @@
     width: fit-content;
     position: fixed;
     display: none;
+    z-index: 999;
 }
 .nav-disappear-menu{
     display: none;
