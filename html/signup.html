@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+    rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/signup.css">
+</head>
+<body>
+        <header>
+            <div class="navbar">
+                <div class="nav1">
+                    <div id="navlogo"><i class="ri-home-3-fill" style="color: #0654EC;font-size: 25px;padding-right: 5px;"></i>Rentora</div>
+                </div>
+                <div class="nav2">
+                    <div class="nav-menu">Home</div>
+                    <div class="nav-menu">Browse</div>
+                    <div class="nav-menu">About us</div>
+                    <div class="nav-menu">Contact</div>
+                </div>
+                <div class="nav3">
+                    <button id="login">Login</button>
+                    <button id="signup" style="display: none;">Sign up</button>
+                </div>
+                <div class="nav-disappear-menu">
+                    <div class="hamburger"><i class="ri-menu-unfold-line"></i></div>
+                </div>
+            </div>
+            <div class="fakenav"></div>
+        </header>
+            <div class="disappear">
+            <ul class="menu">
+                    <li><i class="ri-home-3-line" style="font-size:20px"></i>&nbsp;&nbsp;Home</li>
+                    <li><i class="ri-hotel-line" style="font-size:20px"></i>&nbsp;&nbsp;Browse</li>
+                    <li><i class="ri-info-card-line" style="font-size:20px"></i>&nbsp;&nbsp;About us</li>
+                    <li><i class="ri-contacts-book-line" style="font-size:20px"></i>&nbsp;&nbsp;Contact</li>
+                </ul>
+            </div>
+        
+            <section>
+                <div class="sign-page">
+                    <div class="sign-1"></div>
+                    <div class="sign-2">
+                        <div class="sign-box">
+                            <form id="signup-form">
+                                
+                                <p id="sign-text"><i class="ri-shield-user-line" style="color: #4B0BF5;background-color: #E9DDFD;;border-radius: 50%; padding:8px;"></i><br>
+                                Create your account <br>
+                                Let's get started with Rentora <i class="ri-shake-hands-line"style="color: #4B0BF5;"></i>
+                            </p>
+                                <div id="line1">
+                                <input style="margin-right: 20px;" type="text" id="name" placeholder="👤 Full Name" required>
+                                <input type="email" id="email" placeholder="✉️ Email" required>
+                                </div>
+                                <div id="line2">
+                                <input type="number" id="number" placeholder="📞 Mobile Number" required>
+                                </div>
+                                <div id="line3">
+                                <input type="password" id="pwd1" placeholder="🔒 Create Password" required>
+                                </div>
+                                <div id="line4">
+                                <input type="password" id="pwd2" placeholder="🔒 Confirm Password" required>
+                                </div>
+                                <div id="message" style="padding: 0px;margin: 0px;"></div>
+                                <div class="show">
+                                    <button type="button" id="toggle">
+                                <i class="ri-eye-line"></i> <span style="font-size: 15px;">Show Password</span>
+                                </button>
+                                </div>
+                                <div id="check">
+                                <input type="checkbox" id=box required>&nbsp;<div class="box">I agree to <a href="#">Terms & Conditions</a> and <a href="#">Privacy Policy</a></div>
+                                </div>
+                                <button type="submit" id="submit">Sign up <i class="ri-arrow-right-long-line"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        <script src="../js/disappear.js"></script>
+        <script src="../js/signup.js"></script>
+</body>
+</html>
